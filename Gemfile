@@ -5,6 +5,7 @@ gem 'rails', '4.0.0'
 
 gem 'rails-api'
 gem 'thin'
+gem 'newrelic_rpm'
 
 gem 'the_country_identity'
 gem 'geocoder'
