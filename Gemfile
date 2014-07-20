@@ -9,10 +9,13 @@ gem 'geocoder'
 
 gem 'thin'
 
-gem 'sqlite3'
-
 group :development do
+  gem 'sqlite3'
   gem 'heroku_san'
+end
+
+group :production do
+  gem 'pg'
 end
 
 group :doc do
