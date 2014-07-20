@@ -4,10 +4,10 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 
 gem 'rails-api'
+gem 'thin'
+
 gem 'the_country_identity'
 gem 'geocoder'
-
-gem 'thin'
 
 group :development do
   gem 'sqlite3'
