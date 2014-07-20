@@ -36,9 +36,17 @@ GEM
       nokogiri (>= 1.4.3)
     erubis (2.7.0)
     eventmachine (1.0.3)
+    excon (0.38.0)
     geocoder (1.2.3)
     haml (4.0.5)
       tilt
+    heroku-api (0.3.19)
+      excon (~> 0.38)
+      multi_json (~> 1.8)
+    heroku_san (4.3.2)
+      heroku-api (>= 0.1.2)
+      json
+      rake
     hike (1.2.3)
     htmlentities (4.3.2)
     i18n (0.6.11)
@@ -186,6 +194,7 @@ PLATFORMS
 
 DEPENDENCIES
   geocoder
+  heroku_san
   rails (= 4.0.0)
   rails-api
   sdoc

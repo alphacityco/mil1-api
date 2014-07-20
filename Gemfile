@@ -11,6 +11,10 @@ gem 'thin'
 
 gem 'sqlite3'
 
+group :development do
+  gem 'heroku_san'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
