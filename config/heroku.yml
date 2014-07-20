@@ -11,14 +11,14 @@
 #
 
 production:
-  app: miluno-api
+  app: mil1-api
   stack: cedar
   config: &default
     BUNDLE_WITHOUT: "development:test"
     HOST_URL: "http://miluno-api.herokuapp.com"
 
 testing:
-  app: miluno-api-testing
+  app: mil1-api-testing
   stack: cedar
   config: &default
     BUNDLE_WITHOUT: "development:test"
