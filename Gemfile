@@ -7,7 +7,7 @@ gem 'rails-api'
 gem 'thin'
 gem 'newrelic_rpm'
 
-gem 'the_country_identity'
+gem 'the_country_identity', '0.0.3'
 gem 'geocoder'
 
 group :development do
